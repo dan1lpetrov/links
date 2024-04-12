@@ -1,0 +1,29 @@
+.image{
+            width:96px;
+        }
+        .image img{
+            border-radius: 50%;
+        }
+        @media (prefers-color-scheme: light) {
+            .image img {
+                content: url('day.png');
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            .image img {
+                content: url('night.png');
+            }
+        }
+        .prof{
+              padding: 20px 0 20px 0
+        }
+        .butt{
+        }
+        .qr{
+        width:100%;
+        }
+        .qr img{width:250px;}
+
+        @media (prefers-color-scheme: light) {
+        .text-gray-500{color:#50555f!important;}
+        }
